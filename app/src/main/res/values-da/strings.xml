@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simpel kalender</string>
+    <string name="app_launcher_name">Kalender</string>
+    <string name="no_upcoming_events">Du ser ikke ud til at have nogen forestående begivenheder.</string>
+
+    <!-- Widget titles -->
+    <string name="widget_monthly">Månedlig kalender</string>
+    <string name="widget_list">Begivenhedsliste</string>
+    <string name="widget_todays_date">Dags dato-kalender</string>
+
+    <!-- Event -->
+    <string name="event">Begivenhed</string>
+    <string name="edit_event">Rediger begivenhed</string>
+    <string name="new_event">Ny begivenhed</string>
+    <string name="create_new_event">Opret en ny begivenhed</string>
+    <string name="duplicate_event">Kopier begivenhed</string>
+    <string name="title_empty">Indtast titel</string>
+    <string name="end_before_start">Begivenheden skal starte inden den slutter</string>
+    <string name="please_fill_location">Indtast et sted der kan vises på et kort</string>
+    <string name="public_event_notification_text">En begivenhed er forestående</string>
+
+    <!-- Event Repetition -->
+    <string name="no_repetition">Gentages ikke</string>
+    <string name="daily">Daglig</string>
+    <string name="weekly">Ugentlig</string>
+    <string name="monthly">Månedlig</string>
+    <string name="yearly">Årlig</string>
+    <string name="repeat_till">Gentag indtil</string>
+    <string name="forever">Ingen slutdato</string>
+    <string name="event_is_repeatable">Begivenheden kan gentages</string>
+    <string name="selection_contains_repetition">Valget indeholder gentagne begivenheder</string>
+    <string name="delete_one_only">Slet kun denne forekomst</string>
+    <string name="delete_future_occurrences">Slet denne og alle fremtidige forekomster</string>
+    <string name="delete_all_occurrences">Slet alle forekomster</string>
+    <string name="update_one_only">Opdater kun denne forekomst</string>
+    <string name="update_this_and_future_occurrences">Opdater denne og alle fremtidige forekomster</string>
+    <string name="update_all_occurrences">Opdater alle forekomster</string>
+    <string name="repeat_till_date">Gentag indtil</string>
+    <string name="stop_repeating_after_x">Stop gentagelse efter x gange</string>
+    <string name="repeat_forever">For altid</string>
+    <string name="times">gange</string>
+    <string name="repeat">Gentag</string>
+    <string name="repeat_on">Gentag ugedag</string>
+    <string name="every_day">Hver dag</string>
+    <string name="the_same_day">Samme dag</string>
+    <string name="the_last_day">Sidste dag</string>
+    <string name="repeat_on_the_same_day_monthly">Gentag på samme dato hver måned</string>
+    <string name="repeat_on_the_last_day_monthly">Gentag på månedens sidste dag</string>
+    <string name="repeat_on_the_same_day_yearly">Gentag på samme dag hvert år</string>
+    <string name="repeat_every_m">Gentag hver</string>
+    <string name="every_m">Hver</string>
+    <string name="first_m">første</string>
+    <string name="second_m">anden</string>
+    <string name="third_m">tredje</string>
+    <string name="fourth_m">fjerde</string>
+    <string name="fifth_m">femte</string>
+    <string name="last_m">sidste</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every first Sunday" -->
+    <string name="repeat_every_f">Gentag hver</string>
+    <string name="every_f">Hver</string>
+    <string name="first_f">første</string>
+    <string name="second_f">anden</string>
+    <string name="third_f">tredje</string>
+    <string name="fourth_f">fjerde</string>
+    <string name="fifth_f">fifth</string>
+    <string name="last_f">sidste</string>
+
+    <!-- Birthdays -->
+    <string name="birthdays">Fødselsdage</string>
+    <string name="no_birthdays">Der blev ikke fundet nogen fødselsdage</string>
+    <string name="no_new_birthdays">Der blev ikke fundet nogen nye fødselsdage</string>
+    <string name="birthdays_added">Fødselsdage tilføjet</string>
+
+    <!-- Anniversaries -->
+    <string name="anniversaries">Mærkedage</string>
+    <string name="no_anniversaries">Der blev ikke fundet nogen mærkedage</string>
+    <string name="no_new_anniversaries">Der blev ikke fundet nogen nye mærkedage</string>
+    <string name="anniversaries_added">Mærkedage tilføjet</string>
+
+    <!-- Event Reminders -->
+    <string name="reminder">Påmindelse</string>
+    <string name="add_another_reminder">Tilføj en påmindelse mere</string>
+    <string name="event_reminders">Påmindelser</string>
+
+    <!-- Event attendees -->
+    <string name="my_status">Min status:</string>
+    <string name="going">Kommer</string>
+    <string name="not_going">Kommer ikke</string>
+    <string name="maybe_going">Kommer måske</string>
+    <string name="invited">Inviteret</string>
+
+    <!-- Time zones -->
+    <string name="enter_a_country">Indtast et land eller en tidzone</string>
+
+    <!-- Export / Import -->
+    <string name="import_events">Importer begivenheder</string>
+    <string name="export_events">Eksporter begivenheder</string>
+    <string name="default_event_type">Standard type begivenhed</string>
+    <string name="export_past_events_too">Eksporter også tidligere begivenheder</string>
+    <string name="include_event_types">Inkluder begivenhedstyper</string>
+    <string name="filename_without_ics">Filnavn (uden .ics)</string>
+    <string name="override_event_types">Overskriv begivenhedstyper i filen</string>
+
+    <!-- Event details -->
+    <string name="location">Sted</string>
+    <string name="description">Beskrivelse</string>
+    <string name="all_day">Hele dagen</string>
+
+    <!-- Weekly view -->
+    <string name="week">Uge</string>
+
+    <!-- Event types -->
+    <string name="add_new_type">Tilføj en ny type</string>
+    <string name="edit_type">Rediger type</string>
+    <string name="type_already_exists">Der er allerede en type med dette navn</string>
+    <string name="regular_event">Fast begivenhed</string>
+
+    <!-- Holidays -->
+    <string name="holidays">Helligdage</string>
+    <string name="holidays_imported_successfully">Helligdage er importeret til typen \"Helligdage\"</string>
+    <string name="importing_some_holidays_failed">Nogle helligdages blev ikke importeret</string>
+    <string name="importing_holidays_failed">Import af helligdage mislykkedes</string>
+
+    <!-- Settings -->
+    <string name="events">Begivenheder</string>
+    <string name="last_used_one">Senest brugte</string>
+
+    <!-- CalDAV sync -->
+    <string name="select_caldav_calendars">Vælg kalendere til sync</string>
+    <string name="store_locally_only">Gem kun lokalt</string>
+    <string name="refreshing">Opdaterer…</string>
+    <string name="refreshing_complete">Opdatering gennemført</string>
+    <string name="editing_calendar_failed">Redigering af kalenderen mislykkedes</string>
+    <string name="syncing">Synkroniserer…</string>
+    <string name="synchronization_completed">Synkronisering gennemført</string>
+    <string name="select_a_different_caldav_color">Vælg en anden farve (den kan være tilføjet lokalt)</string>
+    <string name="insufficient_permissions">Du har ikke tilladelse til at skrive i den valgte kalender</string>
+    <string name="no_synchronized_calendars">Der er ikke fundet nogen kalendere der kan synkroniseres</string>
+    <string name="status_free">Free</string>
+    <string name="status_busy">Busy</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every last Sunday" -->
+    <string name="monday_alt">Mandag</string>
+    <string name="tuesday_alt">Tirsdag</string>
+    <string name="wednesday_alt">Onsdag</string>
+    <string name="thursday_alt">Torsdag</string>
+    <string name="friday_alt">Fredag</string>
+    <string name="saturday_alt">Lørdag</string>
+    <string name="sunday_alt">Søndag</string>
+
+    <!-- List widget config example events -->
+    <string name="sample_title_1">Workout</string>
+    <string name="sample_description_1">Ekskursion</string>
+    <string name="sample_title_2">Møde med John</string>
+    <string name="sample_description_2">Botanisk have</string>
+    <string name="sample_title_3">Biblioteket</string>
+    <string name="sample_title_4">Frokost med Marie</string>
+    <string name="sample_description_4">I byen</string>
+    <string name="sample_title_5">Kaffetid!</string>
+
+    <!-- FAQ -->
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <!-- Short description has to have less than 80 chars -->
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

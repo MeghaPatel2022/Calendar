@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Простий Календар</string>
+    <string name="app_launcher_name">Календар</string>
+    <string name="no_upcoming_events">Здається, ви ще не запланували події.</string>
+
+    <!-- Widget titles -->
+    <string name="widget_monthly">Календар на місяць</string>
+    <string name="widget_list">Календар списку подій</string>
+    <string name="widget_todays_date">Календар подій на сьогодні</string>
+
+    <!-- Event -->
+    <string name="event">Подія</string>
+    <string name="edit_event">Редагувати подію</string>
+    <string name="new_event">Нова подія</string>
+    <string name="create_new_event">Створити нову подію</string>
+    <string name="duplicate_event">Дублювати подію</string>
+    <string name="title_empty">Заголовок необхідно заповнити</string>
+    <string name="end_before_start">Подія не може завершитися раніше, ніж почалась</string>
+    <string name="please_fill_location">Будь ласка, вкажіть місце, що буде показано на карті</string>
+    <string name="public_event_notification_text">Наближається подія</string>
+
+    <!-- Event Repetition -->
+    <string name="no_repetition">Без повторень</string>
+    <string name="daily">Щодня</string>
+    <string name="weekly">Щотижня</string>
+    <string name="monthly">Щомісяця</string>
+    <string name="yearly">Щороку</string>
+    <string name="repeat_till">Повторювати до</string>
+    <string name="forever">Безкінечно</string>
+    <string name="event_is_repeatable">Ця подія є повторюваною</string>
+    <string name="selection_contains_repetition">Вибране містить повторювані події</string>
+    <string name="delete_one_only">Видалити лише обране повторення</string>
+    <string name="delete_future_occurrences">Видалити це і всі наступні повторення</string>
+    <string name="delete_all_occurrences">Видалити всі повторення</string>
+    <string name="update_one_only">Оновити лише обране повторення</string>
+    <string name="update_this_and_future_occurrences">Оновити це і всі наступні повторення</string>
+    <string name="update_all_occurrences">Оновити всі повторення</string>
+    <string name="repeat_till_date">Повторити до дати</string>
+    <string name="stop_repeating_after_x">Повторити лише Х разів</string>
+    <string name="repeat_forever">Повторити безкінечно</string>
+    <string name="times">разів</string>
+    <string name="repeat">Повторити</string>
+    <string name="repeat_on">Повторювати</string>
+    <string name="every_day">Щодня</string>
+    <string name="the_same_day">Цього ж дня</string>
+    <string name="the_last_day">Останній день</string>
+    <string name="repeat_on_the_same_day_monthly">Повторити цього ж дня щомісяця</string>
+    <string name="repeat_on_the_last_day_monthly">Повторити останнього дня місяця щомісяця</string>
+    <string name="repeat_on_the_same_day_yearly">Повторити цього ж дня щороку</string>
+    <string name="repeat_every_m">Повторити кожного</string>
+    <string name="every_m">Кожен</string>
+    <string name="first_m">перший</string>
+    <string name="second_m">другий</string>
+    <string name="third_m">третій</string>
+    <string name="fourth_m">четвертий</string>
+    <string name="fifth_m">п\'ятий</string>
+    <string name="last_m">останній</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every first Sunday" -->
+    <string name="repeat_every_f">Повторити кожного</string>
+    <string name="every_f">Кожен</string>
+    <string name="first_f">перший</string>
+    <string name="second_f">другий</string>
+    <string name="third_f">третій</string>
+    <string name="fourth_f">четвертий</string>
+    <string name="fifth_f">п\'ятий</string>
+    <string name="last_f">останній</string>
+
+    <!-- Birthdays -->
+    <string name="birthdays">Дні народжень</string>
+    <string name="no_birthdays">Дні народжень не знайдено</string>
+    <string name="no_new_birthdays">Не знайдено нових днів народжень</string>
+    <string name="birthdays_added">Дні народжень успішно додано</string>
+
+    <!-- Anniversaries -->
+    <string name="anniversaries">Річниці</string>
+    <string name="no_anniversaries">Річниці не знайдено</string>
+    <string name="no_new_anniversaries">Нових річниць не знайдено</string>
+    <string name="anniversaries_added">Річниці успішно додано</string>
+
+    <!-- Event Reminders -->
+    <string name="reminder">Нагадування</string>
+    <string name="add_another_reminder">Додати інше нагадування</string>
+    <string name="event_reminders">Нагадування про події</string>
+
+    <!-- Event attendees -->
+    <string name="my_status">Мій статус:</string>
+    <string name="going">Прийду</string>
+    <string name="not_going">Не прийду</string>
+    <string name="maybe_going">Можливо прийду</string>
+    <string name="invited">Запрошений</string>
+
+    <!-- Time zones -->
+    <string name="enter_a_country">Введіть країну або часовий пояс</string>
+
+    <!-- Export / Import -->
+    <string name="import_events">Імпорт подій</string>
+    <string name="export_events">Експорт подій</string>
+    <string name="default_event_type">Стандартний тип подій</string>
+    <string name="export_past_events_too">Експортувати також події, що відбулися</string>
+    <string name="include_event_types">Приєднати тип подій</string>
+    <string name="filename_without_ics">Назва файлу (без .ics)</string>
+    <string name="override_event_types">Змінити тип подій у файлі</string>
+
+    <!-- Event details -->
+    <string name="location">Місце</string>
+    <string name="description">Описання</string>
+    <string name="all_day">Цілий день</string>
+
+    <!-- Weekly view -->
+    <string name="week">Тиждень</string>
+
+    <!-- Event types -->
+    <string name="add_new_type">Додати новий тип подій</string>
+    <string name="edit_type">Редагувати тип</string>
+    <string name="type_already_exists">Тип із цією назвою вже існує</string>
+    <string name="regular_event">Звичайна подія</string>
+
+    <!-- Holidays -->
+    <string name="holidays">Свята</string>
+    <string name="holidays_imported_successfully">Свята успішно імпортовано в \"Свята\"</string>
+    <string name="importing_some_holidays_failed">Деякі події не вдалось імпортувати</string>
+    <string name="importing_holidays_failed">Свята не вдалось імпортувати</string>
+
+    <!-- Settings -->
+    <string name="events">Події</string>
+    <string name="last_used_one">Останнє використане</string>
+
+    <!-- CalDAV sync -->
+    <string name="select_caldav_calendars">Оберіть календарі для синхронізації</string>
+    <string name="store_locally_only">Зберігати лише локально</string>
+    <string name="refreshing">Триває оновлення…</string>
+    <string name="refreshing_complete">Оновлення завершено</string>
+    <string name="editing_calendar_failed">Не вдалося змінити календар</string>
+    <string name="syncing">Триває синхронізація…</string>
+    <string name="synchronization_completed">Синхронізацію завершено</string>
+    <string name="select_a_different_caldav_color">Обрати інший колір (можна застосувати лише локально)</string>
+    <string name="insufficient_permissions">Ви не можете редагувати обраний календар</string>
+    <string name="no_synchronized_calendars">Не знайдено календарів для синхронізації</string>
+    <string name="status_free">Free</string>
+    <string name="status_busy">Busy</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every last Sunday" -->
+    <string name="monday_alt">понеділок</string>
+    <string name="tuesday_alt">вівторок</string>
+    <string name="wednesday_alt">середа</string>
+    <string name="thursday_alt">четвер</string>
+    <string name="friday_alt">п\'ятниця</string>
+    <string name="saturday_alt">субота</string>
+    <string name="sunday_alt">неділя</string>
+
+    <!-- List widget config example events -->
+    <string name="sample_title_1">Тренування</string>
+    <string name="sample_description_1">День ніг</string>
+    <string name="sample_title_2">Зустріч з Іваном</string>
+    <string name="sample_description_2">У Центральному парку</string>
+    <string name="sample_title_3">Бібліотека</string>
+    <string name="sample_title_4">Обід із Марією</string>
+    <string name="sample_description_4">На Центральній площі</string>
+    <string name="sample_title_5">Час на каву</string>
+
+    <!-- FAQ -->
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <!-- Short description has to have less than 80 chars -->
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

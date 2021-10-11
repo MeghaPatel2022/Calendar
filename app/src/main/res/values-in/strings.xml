@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Calendar</string>
+    <string name="app_launcher_name">Kalender</string>
+    <string name="no_upcoming_events">Sepertinya anda tidak memiliki acara yang akan datang.</string>
+
+    <!-- Widget titles -->
+    <string name="widget_monthly">Bulan</string>
+    <string name="widget_list">Daftar acara</string>
+    <string name="widget_todays_date">Calendar today\'s date</string>
+
+    <!-- Event -->
+    <string name="event">Acara</string>
+    <string name="edit_event">Sunting Acara</string>
+    <string name="new_event">Acara Baru</string>
+    <string name="create_new_event">Buat acara baru</string>
+    <string name="duplicate_event">Duplikat acara</string>
+    <string name="title_empty">Judul tidak boleh kosong</string>
+    <string name="end_before_start">Acara tidak boleh berakhir lebih awal dari waktu mulai</string>
+    <string name="please_fill_location">Silakan isi lokasi untuk ditampilkan pada peta</string>
+    <string name="public_event_notification_text">Aacara yang akan datang</string>
+
+    <!-- Event Repetition -->
+    <string name="no_repetition">Tidak ada perulangan</string>
+    <string name="daily">Harian</string>
+    <string name="weekly">Mingguan</string>
+    <string name="monthly">Bulanan</string>
+    <string name="yearly">Tahunan</string>
+    <string name="repeat_till">Ulangi sampai</string>
+    <string name="forever">Selamanya</string>
+    <string name="event_is_repeatable">Acara berulang</string>
+    <string name="selection_contains_repetition">Acara yang dipilih berisi acara yang berulang</string>
+    <string name="delete_one_only">Hapus acara ini saja</string>
+    <string name="delete_future_occurrences">Hapus acara ini dan semua perulangannya</string>
+    <string name="delete_all_occurrences">Hapus semua perulangan acara</string>
+    <string name="update_one_only">Perbarui acara ini saja</string>
+    <string name="update_this_and_future_occurrences">Update this and all future occurrences</string>
+    <string name="update_all_occurrences">Perbarui semua perulangan acara</string>
+    <string name="repeat_till_date">Ulangi sampai tanggal</string>
+    <string name="stop_repeating_after_x">Berhenti berulang setelah x kali</string>
+    <string name="repeat_forever">Ulangi selamanya</string>
+    <string name="times">kali</string>
+    <string name="repeat">Ulangi</string>
+    <string name="repeat_on">Ulangi pada</string>
+    <string name="every_day">Setiap hari</string>
+    <string name="the_same_day">Hari yang sama</string>
+    <string name="the_last_day">Hari terakhir</string>
+    <string name="repeat_on_the_same_day_monthly">Ulangi pada hari yang sama setiap bulan</string>
+    <string name="repeat_on_the_last_day_monthly">Ulangi pada hari terakhir setiap bulan</string>
+    <string name="repeat_on_the_same_day_yearly">Ulangi pada hari yang sama setiap tahun</string>
+    <string name="repeat_every_m">Ulangi setiap</string>
+    <string name="every_m">Setiap</string>
+    <string name="first_m">pertama</string>
+    <string name="second_m">kedua</string>
+    <string name="third_m">ketiga</string>
+    <string name="fourth_m">keempat</string>
+    <string name="fifth_m">fifth</string>
+    <string name="last_m">terakhir</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every first Sunday" -->
+    <string name="repeat_every_f">Ulangi setiap</string>
+    <string name="every_f">Setiap</string>
+    <string name="first_f">pertama</string>
+    <string name="second_f">kedua</string>
+    <string name="third_f">ketiga</string>
+    <string name="fourth_f">keempat</string>
+    <string name="fifth_f">fifth</string>
+    <string name="last_f">terakhir</string>
+
+    <!-- Birthdays -->
+    <string name="birthdays">Ulang Tahun</string>
+    <string name="no_birthdays">Tidak ada ulang tahun yang ditemukan</string>
+    <string name="no_new_birthdays">Tidak ada ulang tahun baru yang ditemukan</string>
+    <string name="birthdays_added">Ulang tahun berhasil ditambahkan</string>
+
+    <!-- Anniversaries -->
+    <string name="anniversaries">Hari Jadi</string>
+    <string name="no_anniversaries">Tidak ada hari jadi yang ditemukan</string>
+    <string name="no_new_anniversaries">Tidak ada hari jadi baru yang ditemukan</string>
+    <string name="anniversaries_added">Hari jadi berhasil ditambahkan</string>
+
+    <!-- Event Reminders -->
+    <string name="reminder">Pengingat</string>
+    <string name="add_another_reminder">Tambah pengingat lainnya</string>
+    <string name="event_reminders">Pengingat acara</string>
+
+    <!-- Event attendees -->
+    <string name="my_status">Status saya:</string>
+    <string name="going">Hadir</string>
+    <string name="not_going">Tidak hadir</string>
+    <string name="maybe_going">Mungkin hadir</string>
+    <string name="invited">Diundang</string>
+
+    <!-- Time zones -->
+    <string name="enter_a_country">Masukkan nama negara atau zona waktu</string>
+
+    <!-- Export / Import -->
+    <string name="import_events">Impor acara</string>
+    <string name="export_events">Ekspor acara</string>
+    <string name="default_event_type">Kategori acara default</string>
+    <string name="export_past_events_too">Ekspor juga acara yang sudah lewat</string>
+    <string name="include_event_types">Sertakan kategori acara</string>
+    <string name="filename_without_ics">Nama berkas (tanpa .ics)</string>
+    <string name="override_event_types">Timpa kategori acara di dalam berkas</string>
+
+    <!-- Event details -->
+    <string name="location">Lokasi</string>
+    <string name="description">Deskripsi</string>
+    <string name="all_day">Sepanjang hari</string>
+
+    <!-- Weekly view -->
+    <string name="week">Minggu</string>
+
+    <!-- Event types -->
+    <string name="add_new_type">Tambah kategori acara baru</string>
+    <string name="edit_type">Sunting kategori</string>
+    <string name="type_already_exists">Kategori dengan nama ini sudah ada</string>
+    <string name="regular_event">Acara umum</string>
+
+    <!-- Holidays -->
+    <string name="holidays">Hari Libur</string>
+    <string name="holidays_imported_successfully">Hari libur berhasil diimpor ke dalam kategori acara \"Hari Libur\"</string>
+    <string name="importing_some_holidays_failed">Gagal mengimpor beberapa hari libur</string>
+    <string name="importing_holidays_failed">Gagal mengimpor hari libur</string>
+
+    <!-- Settings -->
+    <string name="events">Acara</string>
+    <string name="last_used_one">Terakhir digunakan</string>
+
+    <!-- CalDAV sync -->
+    <string name="select_caldav_calendars">Pilih kalender untuk sinkronisasi</string>
+    <string name="store_locally_only">Hanya simpan secara lokal</string>
+    <string name="refreshing">Menyegarkan…</string>
+    <string name="refreshing_complete">Selesai Menyegarkan</string>
+    <string name="editing_calendar_failed">Gagal menyunting kalender</string>
+    <string name="syncing">Menyinkronkan…</string>
+    <string name="synchronization_completed">Sinkronisasi selesai</string>
+    <string name="select_a_different_caldav_color">Pilih warna yang berbeda (mungkin hanya diterapkan secara lokal)</string>
+    <string name="insufficient_permissions">Anda tidak diizinkan untuk membuat/mengubah acara pada kalender yang dipilih</string>
+    <string name="no_synchronized_calendars">No synchronizable calendars have been found</string>
+    <string name="status_free">Free</string>
+    <string name="status_busy">Busy</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every last Sunday" -->
+    <string name="monday_alt">Senin</string>
+    <string name="tuesday_alt">Selasa</string>
+    <string name="wednesday_alt">Rabu</string>
+    <string name="thursday_alt">Kamis</string>
+    <string name="friday_alt">Jumat</string>
+    <string name="saturday_alt">Sabtu</string>
+    <string name="sunday_alt">Minggu</string>
+
+    <!-- List widget config example events -->
+    <string name="sample_title_1">Olah Raga</string>
+    <string name="sample_description_1">Jalan santai</string>
+    <string name="sample_title_2">Rapat dengan Budi</string>
+    <string name="sample_description_2">Di Taman Mini Indonesia Indah</string>
+    <string name="sample_title_3">Perpustakaan</string>
+    <string name="sample_title_4">Makan siang dengan Wati</string>
+    <string name="sample_description_4">Di Mall</string>
+    <string name="sample_title_5">Waktunya Ngopi</string>
+
+    <!-- FAQ -->
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <!-- Short description has to have less than 80 chars -->
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

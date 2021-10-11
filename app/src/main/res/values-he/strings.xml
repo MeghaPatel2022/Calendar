@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">יומן פשוט</string>
+    <string name="app_launcher_name">יומן</string>
+    <string name="no_upcoming_events">נראה שאין לך אירועים עתידיים.</string>
+
+    <!-- Widget titles -->
+    <string name="widget_monthly">יומן חודשי</string>
+    <string name="widget_list">רשימת אירועי יומן</string>
+    <string name="widget_todays_date">Calendar today\'s date</string>
+
+    <!-- Event -->
+    <string name="event">אירוע</string>
+    <string name="edit_event">ערוך</string>
+    <string name="new_event">אירוע חדש</string>
+    <string name="create_new_event">צור אירוע חדש</string>
+    <string name="duplicate_event">שכפל אירוע</string>
+    <string name="title_empty">כותרת לא יכולה להישאר ריקה</string>
+    <string name="end_before_start">אירוע לא יכול להסתייים לפני שהתחיל</string>
+    <string name="please_fill_location">אנא הזן מיקום להצגה במפה</string>
+    <string name="public_event_notification_text">יש אירוע בקרוב</string>
+
+    <!-- Event Repetition -->
+    <string name="no_repetition">אין חזרה</string>
+    <string name="daily">יומי</string>
+    <string name="weekly">שבועי</string>
+    <string name="monthly">חודשי</string>
+    <string name="yearly">שנתי</string>
+    <string name="repeat_till">חזרה עד </string>
+    <string name="forever">לנצח</string>
+    <string name="event_is_repeatable">האירוע ניתן לחזרה</string>
+    <string name="selection_contains_repetition">הבחירה כוללת אירועים חוזרים</string>
+    <string name="delete_one_only">מחיקת אירוע בודד</string>
+    <string name="delete_future_occurrences">מחיקת כל האירועים העתידיים בסדרה</string>
+    <string name="delete_all_occurrences">מחיקת כל האירועים בסדרה</string>
+    <string name="update_one_only">עדכון האירוע הנוכחי בלבד</string>
+    <string name="update_this_and_future_occurrences">Update this and all future occurrences</string>
+    <string name="update_all_occurrences">עדכון כל האירועים בסדרה</string>
+    <string name="repeat_till_date">חזרה עד לתאריך</string>
+    <string name="stop_repeating_after_x">‏להפסיק חזרה אחרי x פעמים</string>
+    <string name="repeat_forever">חזרה לנצח</string>
+    <string name="times">פעמים</string>
+    <string name="repeat">חזרה</string>
+    <string name="repeat_on">חזרה ב</string>
+    <string name="every_day">כל יום</string>
+    <string name="the_same_day">אותו יום</string>
+    <string name="the_last_day">היום האחרון</string>
+    <string name="repeat_on_the_same_day_monthly">חזור באותו יום בכל חודש</string>
+    <string name="repeat_on_the_last_day_monthly">חזור ביום האחרון בחודש</string>
+    <string name="repeat_on_the_same_day_yearly">חזור באותו יום כל שנה</string>
+    <string name="repeat_every_m">חזור כל</string>
+    <string name="every_m">כל</string>
+    <string name="first_m">ראשון</string>
+    <string name="second_m">שני</string>
+    <string name="third_m">שלישי</string>
+    <string name="fourth_m">רביעי</string>
+    <string name="fifth_m">fifth</string>
+    <string name="last_m">אחרון</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every first Sunday" -->
+    <string name="repeat_every_f">חזרה כל</string>
+    <string name="every_f">כל</string>
+    <string name="first_f">ראשונה</string>
+    <string name="second_f">שניה</string>
+    <string name="third_f">שלישית</string>
+    <string name="fourth_f">רביעית</string>
+    <string name="fifth_f">fifth</string>
+    <string name="last_f">אחרונה</string>
+
+    <!-- Birthdays -->
+    <string name="birthdays">ימי הולדת</string>
+    <string name="no_birthdays">לא נמצאו ימי הולדת</string>
+    <string name="no_new_birthdays">לא נמצאו ימי הולדת חדשים</string>
+    <string name="birthdays_added">ימי הולדת הוספו בהצלחה</string>
+
+    <!-- Anniversaries -->
+    <string name="anniversaries">ימי שנה</string>
+    <string name="no_anniversaries">לא נמצאו ימי שנה</string>
+    <string name="no_new_anniversaries">לא נמצאו ימי שנה חדשים</string>
+    <string name="anniversaries_added">ימי שנה הוספו בהצלחה</string>
+
+    <!-- Event Reminders -->
+    <string name="reminder">תזכורת</string>
+    <string name="add_another_reminder">הוסף תזכורת נוספת</string>
+    <string name="event_reminders">תזכורות לאירוע</string>
+
+    <!-- Event attendees -->
+    <string name="my_status">הסטטוס שלי:</string>
+    <string name="going">מגיע</string>
+    <string name="not_going">לא מגיע</string>
+    <string name="maybe_going">אולי מגיע</string>
+    <string name="invited">מוזמן</string>
+
+    <!-- Time zones -->
+    <string name="enter_a_country">Enter a country or time zone</string>
+
+    <!-- Export / Import -->
+    <string name="import_events">ייבוא אירועים</string>
+    <string name="export_events">ייצוא אירועים</string>
+    <string name="default_event_type">סוג אירוע ברירת מחדל</string>
+    <string name="export_past_events_too">ייצוא אירועי עבר בנוסף</string>
+    <string name="include_event_types">כלול סוגי אירוע</string>
+    <string name="filename_without_ics">שם הקובץ (ללא סיומת .ics)</string>
+    <string name="override_event_types">שנה סוגי אירועים בקובץ</string>
+
+    <!-- Event details -->
+    <string name="location">מיקום</string>
+    <string name="description">תיאור</string>
+    <string name="all_day">כל היום</string>
+
+    <!-- Weekly view -->
+    <string name="week">שבוע</string>
+
+    <!-- Event types -->
+    <string name="add_new_type">הוסף סוג חדש</string>
+    <string name="edit_type">ערוך סוג</string>
+    <string name="type_already_exists">סוג בשם זה כבר קיים</string>
+    <string name="regular_event">אירוע רגיל</string>
+
+    <!-- Holidays -->
+    <string name="holidays">חגים</string>
+    <string name="holidays_imported_successfully">חגים הוספו בהצלחה לתוך סוג אירוע \"חגים\"</string>
+    <string name="importing_some_holidays_failed">חלק מהאירועים נכשלו בייבוא</string>
+    <string name="importing_holidays_failed">ייבוא החגים נכשל</string>
+
+    <!-- Settings -->
+    <string name="events">אירועים</string>
+    <string name="last_used_one">שימוש אחרון</string>
+
+    <!-- CalDAV sync -->
+    <string name="select_caldav_calendars">בחר יומנים לסנכרון</string>
+    <string name="store_locally_only">שמירה מקומית בלבד</string>
+    <string name="refreshing">מרענן…</string>
+    <string name="refreshing_complete">הרענון הסתיים</string>
+    <string name="editing_calendar_failed">עריכת היומן נכשלה</string>
+    <string name="syncing">מסתנכרן…</string>
+    <string name="synchronization_completed">הסנכרון הסתיים</string>
+    <string name="select_a_different_caldav_color">בחירת צבע שונה (ייתכן שיישמר מקומית בלבד)</string>
+    <string name="insufficient_permissions">לא קיימת הרשאת כתיבה ליומנים הנבחרים</string>
+    <string name="no_synchronized_calendars">No synchronizable calendars have been found</string>
+    <string name="status_free">Free</string>
+    <string name="status_busy">Busy</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every last Sunday" -->
+    <string name="monday_alt">שני</string>
+    <string name="tuesday_alt">שלישי</string>
+    <string name="wednesday_alt">רביעי</string>
+    <string name="thursday_alt">חמישי</string>
+    <string name="friday_alt">שישי</string>
+    <string name="saturday_alt">שבת</string>
+    <string name="sunday_alt">ראשון</string>
+
+    <!-- List widget config example events -->
+    <string name="sample_title_1">אירוע חשוב</string>
+    <string name="sample_description_1">תיאור של אירוע</string>
+    <string name="sample_title_2">פגישה לדוגמה</string>
+    <string name="sample_description_2">במגדלי עזריאלי</string>
+    <string name="sample_title_3">ספרייה</string>
+    <string name="sample_title_4">ארוחת צהריים עם דנה</string>
+    <string name="sample_description_4">במלון</string>
+    <string name="sample_title_5">זמן קפה</string>
+
+    <!-- FAQ -->
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <!-- Short description has to have less than 80 chars -->
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Calendar</string>
+    <string name="app_launcher_name">Kalender</string>
+    <string name="no_upcoming_events">Det verkar som att du inte har några kommande händelser.</string>
+
+    <!-- Widget titles -->
+    <string name="widget_monthly">Kalender månadsvis</string>
+    <string name="widget_list">Kalender händelselista</string>
+    <string name="widget_todays_date">Calendar today\'s date</string>
+
+    <!-- Event -->
+    <string name="event">Händelse</string>
+    <string name="edit_event">Redigera händelse</string>
+    <string name="new_event">Ny händelse</string>
+    <string name="create_new_event">Skapa en ny händelse</string>
+    <string name="duplicate_event">Duplicera händelse</string>
+    <string name="title_empty">Titeln får inte vara tom</string>
+    <string name="end_before_start">Händelsen kan inte sluta innan den börjar</string>
+    <string name="please_fill_location">Du måste ange en plats som kan visas på en karta</string>
+    <string name="public_event_notification_text">Du har en kommande händelse</string>
+
+    <!-- Event Repetition -->
+    <string name="no_repetition">Ingen upprepning</string>
+    <string name="daily">Dagligen</string>
+    <string name="weekly">Veckovis</string>
+    <string name="monthly">Månadsvis</string>
+    <string name="yearly">Årligen</string>
+    <string name="repeat_till">Upprepa tills</string>
+    <string name="forever">Alltid</string>
+    <string name="event_is_repeatable">Händelsen är återkommande</string>
+    <string name="selection_contains_repetition">Markeringen innehåller återkommande händelser</string>
+    <string name="delete_one_only">Ta bara bort den valda förekomsten</string>
+    <string name="delete_future_occurrences">Ta bort denna och alla framtida förekomster</string>
+    <string name="delete_all_occurrences">Ta bort alla förekomster</string>
+    <string name="update_one_only">Uppdatera bara den valda förekomsten</string>
+    <string name="update_this_and_future_occurrences">Update this and all future occurrences</string>
+    <string name="update_all_occurrences">Uppdatera alla förekomster</string>
+    <string name="repeat_till_date">Upprepa till ett datum</string>
+    <string name="stop_repeating_after_x">Sluta upprepa efter x förekomster</string>
+    <string name="repeat_forever">Upprepa alltid</string>
+    <string name="times">gånger</string>
+    <string name="repeat">Upprepa</string>
+    <string name="repeat_on">Upprepa på</string>
+    <string name="every_day">Varje dag</string>
+    <string name="the_same_day">Samma dag</string>
+    <string name="the_last_day">Den sista dagen</string>
+    <string name="repeat_on_the_same_day_monthly">Upprepa på samma dag varje månad</string>
+    <string name="repeat_on_the_last_day_monthly">Upprepa på månadens sista dag</string>
+    <string name="repeat_on_the_same_day_yearly">Upprepa på samma dag varje år</string>
+    <string name="repeat_every_m">Upprepa varje</string>
+    <string name="every_m">Varje</string>
+    <string name="first_m">första</string>
+    <string name="second_m">andra</string>
+    <string name="third_m">tredje</string>
+    <string name="fourth_m">fjärde</string>
+    <string name="fifth_m">fifth</string>
+    <string name="last_m">sista</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every first Sunday" -->
+    <string name="repeat_every_f">Upprepa varje</string>
+    <string name="every_f">Varje</string>
+    <string name="first_f">första</string>
+    <string name="second_f">andra</string>
+    <string name="third_f">tredje</string>
+    <string name="fourth_f">fjärde</string>
+    <string name="fifth_f">fifth</string>
+    <string name="last_f">sista</string>
+
+    <!-- Birthdays -->
+    <string name="birthdays">Födelsedagar</string>
+    <string name="no_birthdays">Inga födelsedagar hittades</string>
+    <string name="no_new_birthdays">Inga nya födelsedagar hittades</string>
+    <string name="birthdays_added">Födelsedagarna har lagts till</string>
+
+    <!-- Anniversaries -->
+    <string name="anniversaries">Årsdagar</string>
+    <string name="no_anniversaries">Inga årsdagar hittades</string>
+    <string name="no_new_anniversaries">Inga nya årsdagar hittades</string>
+    <string name="anniversaries_added">Årsdagarna har lagts till</string>
+
+    <!-- Event Reminders -->
+    <string name="reminder">Påminnelse</string>
+    <string name="add_another_reminder">Lägg till en annan påminnelse</string>
+    <string name="event_reminders">Händelsepåminnelser</string>
+
+    <!-- Event attendees -->
+    <string name="my_status">Min status:</string>
+    <string name="going">Kommer</string>
+    <string name="not_going">Kommer inte</string>
+    <string name="maybe_going">Kommer kanske</string>
+    <string name="invited">Inbjuden</string>
+
+    <!-- Time zones -->
+    <string name="enter_a_country">Enter a country or time zone</string>
+
+    <!-- Export / Import -->
+    <string name="import_events">Importera händelser</string>
+    <string name="export_events">Exportera händelser</string>
+    <string name="default_event_type">Standardhändelsetyp</string>
+    <string name="export_past_events_too">Exportera även tidigare händelser</string>
+    <string name="include_event_types">Inkludera händelsetyper</string>
+    <string name="filename_without_ics">Filnamn (utan .ics)</string>
+    <string name="override_event_types">Ignorera händelsetyper i filen</string>
+
+    <!-- Event details -->
+    <string name="location">Plats</string>
+    <string name="description">Beskrivning</string>
+    <string name="all_day">Heldag</string>
+
+    <!-- Weekly view -->
+    <string name="week">Vecka</string>
+
+    <!-- Event types -->
+    <string name="add_new_type">Lägg till en ny typ</string>
+    <string name="edit_type">Redigera typ</string>
+    <string name="type_already_exists">Det finns redan en typ med samma titel</string>
+    <string name="regular_event">Regelbunden händelse</string>
+
+    <!-- Holidays -->
+    <string name="holidays">Helgdagar</string>
+    <string name="holidays_imported_successfully">Helgdagarna har importerats till händelsetypen \"Helgdagar\"</string>
+    <string name="importing_some_holidays_failed">Importen av vissa händelser misslyckades</string>
+    <string name="importing_holidays_failed">Importen av helgdagarna misslyckades</string>
+
+    <!-- Settings -->
+    <string name="events">Händelser</string>
+    <string name="last_used_one">Senast använda</string>
+
+    <!-- CalDAV sync -->
+    <string name="select_caldav_calendars">Välj de kalendrar som du vill synkronisera</string>
+    <string name="store_locally_only">Spara bara lokalt</string>
+    <string name="refreshing">Uppdaterar…</string>
+    <string name="refreshing_complete">Uppdateringen är klar</string>
+    <string name="editing_calendar_failed">Det gick inte att redigera kalendern</string>
+    <string name="syncing">Synkroniserar…</string>
+    <string name="synchronization_completed">Synkroniseringen är klar</string>
+    <string name="select_a_different_caldav_color">Välj en annan färg (tillämpas kanske bara lokalt)</string>
+    <string name="insufficient_permissions">Du har inte behörighet att redigera den valda kalendern</string>
+    <string name="no_synchronized_calendars">No synchronizable calendars have been found</string>
+    <string name="status_free">Free</string>
+    <string name="status_busy">Busy</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every last Sunday" -->
+    <string name="monday_alt">måndag</string>
+    <string name="tuesday_alt">tisdag</string>
+    <string name="wednesday_alt">onsdag</string>
+    <string name="thursday_alt">torsdag</string>
+    <string name="friday_alt">fredag</string>
+    <string name="saturday_alt">lördag</string>
+    <string name="sunday_alt">söndag</string>
+
+    <!-- List widget config example events -->
+    <string name="sample_title_1">Träning</string>
+    <string name="sample_description_1">Bendag</string>
+    <string name="sample_title_2">Möte med Johan</string>
+    <string name="sample_description_2">I trädgården</string>
+    <string name="sample_title_3">Biblioteket</string>
+    <string name="sample_title_4">Lunch med Maria</string>
+    <string name="sample_description_4">På stranden</string>
+    <string name="sample_title_5">Kaffedags</string>
+
+    <!-- FAQ -->
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <!-- Short description has to have less than 80 chars -->
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

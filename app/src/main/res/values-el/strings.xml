@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Απλό Ημερολόγιο</string>
+    <string name="app_launcher_name">Ημερολόγιο</string>
+    <string name="no_upcoming_events">Φαίνεται πως δεν έχετε επερχόμενες εκδηλώσεις.</string>
+
+    <!-- Widget titles -->
+    <string name="widget_monthly">Μηνιαίο ημερολόγιο</string>
+    <string name="widget_list">Λίστα εκδηλώσεων ημερολογίου</string>
+    <string name="widget_todays_date">Σημερινό ημερολόγιο</string>
+
+    <!-- Event -->
+    <string name="event">Εκδηλώσεις</string>
+    <string name="edit_event">Επεξεργασία εκδηλώσεων</string>
+    <string name="new_event">Νέα εκδήλωση</string>
+    <string name="create_new_event">Δημιουργία νέας εκδήλωσης</string>
+    <string name="duplicate_event">Διπλότυπες εκδηλώσεις</string>
+    <string name="title_empty">Ο τίτλος δεν μπορεί να είναι κενός</string>
+    <string name="end_before_start">Η εκδήλωση δεν μπορεί να τερματιστεί νωρίτερα από την έναρξή της</string>
+    <string name="please_fill_location">Συμπληρώστε μια τοποθεσία που θα εμφανίζεται στο χάρτη</string>
+    <string name="public_event_notification_text">Μια εκδήλωση είναι επερχόμενη</string>
+
+    <!-- Event Repetition -->
+    <string name="no_repetition">Χωρίς Επανάληψη</string>
+    <string name="daily">Καθημερινά</string>
+    <string name="weekly">Εβδομαδιαία</string>
+    <string name="monthly">Μηνιαία</string>
+    <string name="yearly">Ετήσια</string>
+    <string name="repeat_till">Επανάληψη μέχρι</string>
+    <string name="forever">Για πάντα</string>
+    <string name="event_is_repeatable">Η εκδήλωση είναι επαναλαμβανόμενη</string>
+    <string name="selection_contains_repetition">Η επιλογή περιέχει επαναλαμβανόμενες εκδηλώσεις</string>
+    <string name="delete_one_only">Διαγράψτε μόνο το επιλεγμένο περιστατικό</string>
+    <string name="delete_future_occurrences">Διαγράψτε αυτό και όλα τα μελλοντικά συμβάντα</string>
+    <string name="delete_all_occurrences">Διαγράψτε όλα τα περιστατικά</string>
+    <string name="update_one_only">Ενημέρωση μόνο του επιλεγμένου περιστατικού</string>
+    <string name="update_this_and_future_occurrences">Ενημερώστε αυτό και όλα τα μελλοντικά περιστατικά</string>
+    <string name="update_all_occurrences">Ενημέρωση όλων των περιστατικών</string>
+    <string name="repeat_till_date">Επαναλάβετε μέχρι μια ημερομηνία</string>
+    <string name="stop_repeating_after_x">Παύση επαναλήψεων μετά από x εμφανίσεις</string>
+    <string name="repeat_forever">Επανάληψη πάντα</string>
+    <string name="times">Φορές</string>
+    <string name="repeat">Επανάληψη</string>
+    <string name="repeat_on">Επανάληψη ενεργή</string>
+    <string name="every_day">Κάθε μέρα</string>
+    <string name="the_same_day">Την ίδια μέρα</string>
+    <string name="the_last_day">Την τελευταία μέρα</string>
+    <string name="repeat_on_the_same_day_monthly">Επανάληψη την ίδια ημέρα κάθε μήνα</string>
+    <string name="repeat_on_the_last_day_monthly">Επανάληψη την τελευταία ημέρα του μήνα</string>
+    <string name="repeat_on_the_same_day_yearly">Επανάληψη την τελευταία ημέρα του έτους</string>
+    <string name="repeat_every_m">Επανάληψη κάθε</string>
+    <string name="every_m">Κάθε</string>
+    <string name="first_m">πρώτη</string>
+    <string name="second_m">δεύτερη</string>
+    <string name="third_m">τρίτη</string>
+    <string name="fourth_m">τέταρτη</string>
+    <string name="fifth_m">πέμπτη</string>
+    <string name="last_m">τελευταία</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every first Sunday" -->
+    <string name="repeat_every_f">Επανάληψη κάθε</string>
+    <string name="every_f">Κάθε</string>
+    <string name="first_f">πρώτη</string>
+    <string name="second_f">δεύτερη</string>
+    <string name="third_f">τρίτη</string>
+    <string name="fourth_f">τέταρτη</string>
+    <string name="fifth_f">πέμπτη</string>
+    <string name="last_f">τελευταία</string>
+
+    <!-- Birthdays -->
+    <string name="birthdays">Γενέθλια</string>
+    <string name="no_birthdays">Δεν βρέθηκαν γενέθλια</string>
+    <string name="no_new_birthdays">Δεν έχουν βρεθεί νέα γενέθλια</string>
+    <string name="birthdays_added">Τα γενέθλια προστέθηκαν με επιτυχία</string>
+
+    <!-- Anniversaries -->
+    <string name="anniversaries">Επέτειοι</string>
+    <string name="no_anniversaries">Δεν έχουν βρεθεί επέτειοι</string>
+    <string name="no_new_anniversaries">Δεν έχουν βρεθεί νέοι επέτειοι</string>
+    <string name="anniversaries_added">Οι επέτειοι προστέθηκαν με επιτυχία</string>
+
+    <!-- Event Reminders -->
+    <string name="reminder">Υπενθύμιση</string>
+    <string name="add_another_reminder">Προσθέστε μια άλλη υπενθύμιση</string>
+    <string name="event_reminders">Υπενθυμίσεις εκδηλώσεων</string>
+
+    <!-- Event attendees -->
+    <string name="my_status">Η κατάσταση μου:</string>
+    <string name="going">Πηγαίνω</string>
+    <string name="not_going">Δεν πηγαίνω</string>
+    <string name="maybe_going">Ίσως πάω</string>
+    <string name="invited">Καλεσμένος</string>
+
+    <!-- Time zones -->
+    <string name="enter_a_country">Εισαγωγή χώρας ή ζώνης ώρας</string>
+
+    <!-- Export / Import -->
+    <string name="import_events">Εισαγωγή εκδηλώσεων</string>
+    <string name="export_events">Εξαγωγή εκδηλώσεων</string>
+    <string name="default_event_type">Προεπιλεγμένος τύπος εκδήλωσης</string>
+    <string name="export_past_events_too">Εξαγωγή προηγούμενων εκδηλώσεων επίσης</string>
+    <string name="include_event_types">Συμπερίληψη τύπων εκδηλώσεων</string>
+    <string name="filename_without_ics">Όνομα αρχείου (χωρίς .ics)</string>
+    <string name="override_event_types">Κατάργηση τύπων εκδηλώσεων στο αρχείο</string>
+
+    <!-- Event details -->
+    <string name="location">Τοποθεσία</string>
+    <string name="description">Περιγραφή</string>
+    <string name="all_day">Ημερήσια</string>
+
+    <!-- Weekly view -->
+    <string name="week">Εβδομάδα</string>
+
+    <!-- Event types -->
+    <string name="add_new_type">Προσθέστε νέο τύπο</string>
+    <string name="edit_type">Επεξεργασία τύπου</string>
+    <string name="type_already_exists">Ο τύπος με αυτόν τον τίτλο υπάρχει ήδη</string>
+    <string name="regular_event">Κανονική εκδήλωση</string>
+
+    <!-- Holidays -->
+    <string name="holidays">Αργίες</string>
+    <string name="holidays_imported_successfully">Οι αργίες έχουν εισαχθεί επιτυχώς στον τύπο συμβάντος  \"Αργίες\" </string>
+    <string name="importing_some_holidays_failed">Η εισαγωγή κάποιων εκδηλώσεων απέτυχε</string>
+    <string name="importing_holidays_failed">Η εισαγωγή αργιών απέτυχε</string>
+
+    <!-- Settings -->
+    <string name="events">Εκδηλώσεις</string>
+    <string name="last_used_one">Τελευταία χρήση</string>
+
+    <!-- CalDAV sync -->
+    <string name="select_caldav_calendars">Επιλέξτε ημερολόγια για συγχρονισμό</string>
+    <string name="store_locally_only">Αποθήκευση μόνο τοπικά</string>
+    <string name="refreshing">Ανανεώνεται…</string>
+    <string name="refreshing_complete">Ολοκλήρωση ανανέωσης</string>
+    <string name="editing_calendar_failed">Η επεξεργασία του ημερολογίου απέτυχε</string>
+    <string name="syncing">Συγχρονισμός…</string>
+    <string name="synchronization_completed">Ο συγχρονισμός ολοκληρώθηκε</string>
+    <string name="select_a_different_caldav_color">Επιλέξτε διαφορετικό χρώμα (μπορεί να εφαρμοστεί μόνο τοπικά)</string>
+    <string name="insufficient_permissions">Δεν επιτρέπεται η εγγραφή στο επιλεγμένο ημερολόγιο</string>
+    <string name="no_synchronized_calendars">Δεν μπόρεσαν να βρεθούν συγχρονισμένα Ημερολόγια</string>
+    <string name="status_free">Ελεύθερο</string>
+    <string name="status_busy">Κατειλημμένο</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every last Sunday" -->
+    <string name="monday_alt">Δευτέρα</string>
+    <string name="tuesday_alt">Τρίτη</string>
+    <string name="wednesday_alt">Τετάρτη</string>
+    <string name="thursday_alt">Πέμπτη</string>
+    <string name="friday_alt">Παρασκευή</string>
+    <string name="saturday_alt">Σαββάτο</string>
+    <string name="sunday_alt">Κυριακή</string>
+
+    <!-- List widget config example events -->
+    <string name="sample_title_1">Άσκηση</string>
+    <string name="sample_description_1">Ημέρα ποδιών</string>
+    <string name="sample_title_2">Συνάντηση με τον Γιάννη</string>
+    <string name="sample_description_2">Στον κήπο Rockstone</string>
+    <string name="sample_title_3">Βιβλιοθήκη</string>
+    <string name="sample_title_4">Μεσημεριανό με την Μαίρη</string>
+    <string name="sample_description_4">Στην πλατεία</string>
+    <string name="sample_title_5">Ωρα για καφέ</string>
+
+    <!-- FAQ -->
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <!-- Short description has to have less than 80 chars -->
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

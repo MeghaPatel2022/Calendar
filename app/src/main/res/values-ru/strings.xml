@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Calendar</string>
+    <string name="app_launcher_name">Календарь</string>
+    <string name="no_upcoming_events">Похоже, нет предстоящих событий.</string>
+
+    <!-- Widget titles -->
+    <string name="widget_monthly">Календарь на месяц</string>
+    <string name="widget_list">Календарь событий</string>
+    <string name="widget_todays_date">Календарь на сегодня</string>
+
+    <!-- Event -->
+    <string name="event">Событие</string>
+    <string name="edit_event">Редактировать событие</string>
+    <string name="new_event">Новое событие</string>
+    <string name="create_new_event">Создать новое событие</string>
+    <string name="duplicate_event">Дублировать событие</string>
+    <string name="title_empty">Заголовок не может быть пустым</string>
+    <string name="end_before_start">Событие не может завершаться раньше, чем начинаться</string>
+    <string name="please_fill_location">Укажите место, которое будет показано на карте</string>
+    <string name="public_event_notification_text">Предстоящее событие</string>
+
+    <!-- Event Repetition -->
+    <string name="no_repetition">Без повторения</string>
+    <string name="daily">Ежедневно</string>
+    <string name="weekly">Еженедельно</string>
+    <string name="monthly">Ежемесячно</string>
+    <string name="yearly">Ежегодно</string>
+    <string name="repeat_till">Повторять до</string>
+    <string name="forever">Бесконечно</string>
+    <string name="event_is_repeatable">Это событие может повторяться</string>
+    <string name="selection_contains_repetition">В выбранном есть повторяющиеся события</string>
+    <string name="delete_one_only">Удалить только это событие</string>
+    <string name="delete_future_occurrences">Удалить это и все будущие события</string>
+    <string name="delete_all_occurrences">Удалить все связанные события</string>
+    <string name="update_one_only">Обновить только выбранное</string>
+    <string name="update_this_and_future_occurrences">Обновить это и все будущие события</string>
+    <string name="update_all_occurrences">Обновить все связанные</string>
+    <string name="repeat_till_date">Повторять до даты</string>
+    <string name="stop_repeating_after_x">Повторять x раз</string>
+    <string name="repeat_forever">Повторять бесконечно</string>
+    <string name="times">раз(а)</string>
+    <string name="repeat">Повторять</string>
+    <string name="repeat_on">Повторять в</string>
+    <string name="every_day">Каждый день</string>
+    <string name="the_same_day">Этот же день</string>
+    <string name="the_last_day">Последний день</string>
+    <string name="repeat_on_the_same_day_monthly">Повторять в этот же день каждый месяц</string>
+    <string name="repeat_on_the_last_day_monthly">Повторять в последний день месяца</string>
+    <string name="repeat_on_the_same_day_yearly">Повторять в этот же день каждый год</string>
+    <string name="repeat_every_m">Повторять каждый</string>
+    <string name="every_m">Каждый</string>
+    <string name="first_m">первый</string>
+    <string name="second_m">второй</string>
+    <string name="third_m">третий</string>
+    <string name="fourth_m">четвёртый</string>
+    <string name="fifth_m">пятый</string>
+    <string name="last_m">последний</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every first Sunday" -->
+    <string name="repeat_every_f">Повторять каждую</string>
+    <string name="every_f">Каждую</string>
+    <string name="first_f">первую</string>
+    <string name="second_f">вторую</string>
+    <string name="third_f">третью</string>
+    <string name="fourth_f">четвёртую</string>
+    <string name="fifth_f">пятую</string>
+    <string name="last_f">последнюю</string>
+
+    <!-- Birthdays -->
+    <string name="birthdays">Дни рождения</string>
+    <string name="no_birthdays">Дни рождения не найдены</string>
+    <string name="no_new_birthdays">Новых дней рождения не найдено</string>
+    <string name="birthdays_added">Дни рождения успешно добавлены</string>
+
+    <!-- Anniversaries -->
+    <string name="anniversaries">Годовщины</string>
+    <string name="no_anniversaries">Годовщины не найдены</string>
+    <string name="no_new_anniversaries">Новых годовщин не найдено</string>
+    <string name="anniversaries_added">Годовщины успешно добавлены</string>
+
+    <!-- Event Reminders -->
+    <string name="reminder">Напоминание</string>
+    <string name="add_another_reminder">Добавить ещё одно напоминание</string>
+    <string name="event_reminders">Напоминания о событиях</string>
+
+    <!-- Event attendees -->
+    <string name="my_status">Мой статус:</string>
+    <string name="going">Приду</string>
+    <string name="not_going">Не приду</string>
+    <string name="maybe_going">Возможно приду</string>
+    <string name="invited">Приглашённый</string>
+
+    <!-- Time zones -->
+    <string name="enter_a_country">Введите страну или часовой пояс</string>
+
+    <!-- Export / Import -->
+    <string name="import_events">Импорт событий</string>
+    <string name="export_events">Экспорт событий</string>
+    <string name="default_event_type">Тип события по умолчанию</string>
+    <string name="export_past_events_too">Экспортировать прошедшие события</string>
+    <string name="include_event_types">Включать типы событий</string>
+    <string name="filename_without_ics">Имя файла (без .ics)</string>
+    <string name="override_event_types">Переопределять типы событий в файле</string>
+
+    <!-- Event details -->
+    <string name="location">Место</string>
+    <string name="description">Описание</string>
+    <string name="all_day">Весь день</string>
+
+    <!-- Weekly view -->
+    <string name="week">Неделя</string>
+
+    <!-- Event types -->
+    <string name="add_new_type">Добавить новый тип</string>
+    <string name="edit_type">Редактировать тип</string>
+    <string name="type_already_exists">Тип с таким названием уже существует</string>
+    <string name="regular_event">Обычное событие</string>
+
+    <!-- Holidays -->
+    <string name="holidays">Праздники</string>
+    <string name="holidays_imported_successfully">Праздники были успешно импортированы в тип события \"Праздники\"</string>
+    <string name="importing_some_holidays_failed">Не удалось импортировать некоторые события</string>
+    <string name="importing_holidays_failed">Не удалось импортировать праздники</string>
+
+    <!-- Settings -->
+    <string name="events">События</string>
+    <string name="last_used_one">Последнее использованное</string>
+
+    <!-- CalDAV sync -->
+    <string name="select_caldav_calendars">Выберите календари для синхронизации</string>
+    <string name="store_locally_only">Хранить только локально</string>
+    <string name="refreshing">Обновление…</string>
+    <string name="refreshing_complete">Обновление завершено</string>
+    <string name="editing_calendar_failed">Не удалось изменить календарь</string>
+    <string name="syncing">Синхронизация…</string>
+    <string name="synchronization_completed">Синхронизация завершена</string>
+    <string name="select_a_different_caldav_color">Выберите другой цвет (применяется локально)</string>
+    <string name="insufficient_permissions">Запись в выбранный календарь запрещена</string>
+    <string name="no_synchronized_calendars">Синхронизируемые календари не найдены</string>
+    <string name="status_free">Свободен</string>
+    <string name="status_busy">Занят</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every last Sunday" -->
+    <string name="monday_alt">понедельник</string>
+    <string name="tuesday_alt">вторник</string>
+    <string name="wednesday_alt">среду</string>
+    <string name="thursday_alt">четверг</string>
+    <string name="friday_alt">пятницу</string>
+    <string name="saturday_alt">субботу</string>
+    <string name="sunday_alt">воскресенье</string>
+
+    <!-- List widget config example events -->
+    <string name="sample_title_1">Тренировка</string>
+    <string name="sample_description_1">День ног</string>
+    <string name="sample_title_2">Встреча с Женей</string>
+    <string name="sample_description_2">У метро \"Невский проспект\"</string>
+    <string name="sample_title_3">Библиотека</string>
+    <string name="sample_title_4">Ужин с Машей</string>
+    <string name="sample_description_4">В КЭТ на Караванной</string>
+    <string name="sample_title_5">Время для кофе</string>
+
+    <!-- FAQ -->
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <!-- Short description has to have less than 80 chars -->
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Calendar</string>
+    <string name="app_launcher_name">Calendar</string>
+    <string name="no_upcoming_events">Se pare că nu aveți evenimente viitoare.</string>
+
+    <!-- Widget titles -->
+    <string name="widget_monthly">Calendar lunar</string>
+    <string name="widget_list">Calendar listă evenimente</string>
+    <string name="widget_todays_date">Calendar data de azi</string>
+
+    <!-- Event -->
+    <string name="event">Eveniment</string>
+    <string name="edit_event">Modifică evenimentul</string>
+    <string name="new_event">Eveniment nou</string>
+    <string name="create_new_event">Creează un nou eveniment</string>
+    <string name="duplicate_event">Duplică evenimentul</string>
+    <string name="title_empty">Titlul nu poate fi gol</string>
+    <string name="end_before_start">Evenimentul nu se poate încheia mai devreme decât începe</string>
+    <string name="please_fill_location">Completează o locație care să fie afișată pe o hartă</string>
+    <string name="public_event_notification_text">Un eveniment se apropie</string>
+
+    <!-- Event Repetition -->
+    <string name="no_repetition">Fără repetiție</string>
+    <string name="daily">Zilnic</string>
+    <string name="weekly">Săptămânal</string>
+    <string name="monthly">Lunar</string>
+    <string name="yearly">Anual</string>
+    <string name="repeat_till">Repetă până</string>
+    <string name="forever">Pentru totdeauna</string>
+    <string name="event_is_repeatable">Evenimentul este repetabil</string>
+    <string name="selection_contains_repetition">Selecția conține evenimente repetitive</string>
+    <string name="delete_one_only">Ștergeți numai evenimentul repetitiv selectat</string>
+    <string name="delete_future_occurrences">Ștergeți acest și toate evenimentele repetitive viitoare</string>
+    <string name="delete_all_occurrences">Ștergeți toate evenimentele repetitive viitoare</string>
+    <string name="update_one_only">Actualizați numai evenimentul repetitiv selectat</string>
+    <string name="update_this_and_future_occurrences">Update this and all future occurrences</string>
+    <string name="update_all_occurrences">Actualizați toate evenimentele repetitive</string>
+    <string name="repeat_till_date">Repetă până la o dată</string>
+    <string name="stop_repeating_after_x">Oprește repetiția după x întâmplări</string>
+    <string name="repeat_forever">Repetă pentru totdeauna</string>
+    <string name="times">ori</string>
+    <string name="repeat">Repetă</string>
+    <string name="repeat_on">Repetă în</string>
+    <string name="every_day">În fiecare zi</string>
+    <string name="the_same_day">Aceeași zi</string>
+    <string name="the_last_day">Ultima zi</string>
+    <string name="repeat_on_the_same_day_monthly">Repetă în aceeași zi lunar</string>
+    <string name="repeat_on_the_last_day_monthly">Repetă în ultima zi lunar</string>
+    <string name="repeat_on_the_same_day_yearly">Repetă în aceeași zi anual</string>
+    <string name="repeat_every_m">Repetă zilnic</string>
+    <string name="every_m">În fiecare</string>
+    <string name="first_m">prima</string>
+    <string name="second_m">a doua</string>
+    <string name="third_m">a treia</string>
+    <string name="fourth_m">a patra</string>
+    <string name="fifth_m">fifth</string>
+    <string name="last_m">ultima</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every first Sunday" -->
+    <string name="repeat_every_f">În fiecare</string>
+    <string name="every_f">În fiecare</string>
+    <string name="first_f">prima</string>
+    <string name="second_f">a doua</string>
+    <string name="third_f">a treia</string>
+    <string name="fourth_f">a patra</string>
+    <string name="fifth_f">fifth</string>
+    <string name="last_f">ultima</string>
+
+    <!-- Birthdays -->
+    <string name="birthdays">Zile de naștere</string>
+    <string name="no_birthdays">Nu s-au găsit zile de naștere</string>
+    <string name="no_new_birthdays">Nu s-au găsit zile de naștere nou</string>
+    <string name="birthdays_added">Zile de naștere adăugate cu succes</string>
+
+    <!-- Anniversaries -->
+    <string name="anniversaries">Aniversări</string>
+    <string name="no_anniversaries">Nu s-au găsit aniversări</string>
+    <string name="no_new_anniversaries">Nu s-au găsit aniversări noi</string>
+    <string name="anniversaries_added">Aniversări adăugate cu succes</string>
+
+    <!-- Event Reminders -->
+    <string name="reminder">Reamintire</string>
+    <string name="add_another_reminder">Adaugă altă reamintire</string>
+    <string name="event_reminders">Reamintiri eveniment</string>
+
+    <!-- Event attendees -->
+    <string name="my_status">Statusul meu:</string>
+    <string name="going">Particip</string>
+    <string name="not_going">Nu particip</string>
+    <string name="maybe_going">Poate particip</string>
+    <string name="invited">Invitat</string>
+
+    <!-- Time zones -->
+    <string name="enter_a_country">Introduce o țară sau un fus orar</string>
+
+    <!-- Export / Import -->
+    <string name="import_events">Importă evenimente</string>
+    <string name="export_events">Exportă evenimente</string>
+    <string name="default_event_type">Tipul evenimentului implicit</string>
+    <string name="export_past_events_too">Exportă și evenimentele din trecut</string>
+    <string name="include_event_types">Include tipurile de eveniment</string>
+    <string name="filename_without_ics">Numefisier (fără .ics)</string>
+    <string name="override_event_types">Înlocuiți tipurile de eveniment din fișier</string>
+
+    <!-- Event details -->
+    <string name="location">Locație</string>
+    <string name="description">Descripție</string>
+    <string name="all_day">Toată ziua</string>
+
+    <!-- Weekly view -->
+    <string name="week">Săptămână</string>
+
+    <!-- Event types -->
+    <string name="add_new_type">Adaugă un tip nou</string>
+    <string name="edit_type">Modifică tipul</string>
+    <string name="type_already_exists">Există deja un tip cu acest nume</string>
+    <string name="regular_event">Eveniment normal</string>
+
+    <!-- Holidays -->
+    <string name="holidays">Sărbătoare</string>
+    <string name="holidays_imported_successfully">Sărbătorile au fost importate cu succes în tipul de eveniment \"Sărbători\"</string>
+    <string name="importing_some_holidays_failed">Importarea unor evenimente a eșuat</string>
+    <string name="importing_holidays_failed">Importarea sărbătorilor a eșuat</string>
+
+    <!-- Settings -->
+    <string name="events">Evenimente</string>
+    <string name="last_used_one">Ultima folosită</string>
+
+    <!-- CalDAV sync -->
+    <string name="select_caldav_calendars">Selectează calendarele pentru sincronizare</string>
+    <string name="store_locally_only">Depozitați numai local</string>
+    <string name="refreshing">Se reîmprospătează…</string>
+    <string name="refreshing_complete">Reîmprospătare completă</string>
+    <string name="editing_calendar_failed">Editarea calendarului a eșuat</string>
+    <string name="syncing">Se sincronizează…</string>
+    <string name="synchronization_completed">Sincronizare completă</string>
+    <string name="select_a_different_caldav_color">Selectați o culoare diferită (poate fi aplicată doar local)</string>
+    <string name="insufficient_permissions">Nu aveți voie să scrieți în calendarul selectat</string>
+    <string name="no_synchronized_calendars">Nu au fost găsite calendare care se pot sincroniza</string>
+    <string name="status_free">Free</string>
+    <string name="status_busy">Busy</string>
+
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every last Sunday" -->
+    <string name="monday_alt">Luni</string>
+    <string name="tuesday_alt">Marți</string>
+    <string name="wednesday_alt">Miercuri</string>
+    <string name="thursday_alt">Joi</string>
+    <string name="friday_alt">Vineri</string>
+    <string name="saturday_alt">Sâmbătă</string>
+    <string name="sunday_alt">Duminică</string>
+
+    <!-- List widget config example events -->
+    <string name="sample_title_1">Antrenament</string>
+    <string name="sample_description_1">Zi antrenament pentru picioare</string>
+    <string name="sample_title_2">Întâlnire cu Ion</string>
+    <string name="sample_description_2">În grădina Rockstone</string>
+    <string name="sample_title_3">Bibliotecă</string>
+    <string name="sample_title_4">Prânz cu Maria</string>
+    <string name="sample_description_4">În Plaza</string>
+    <string name="sample_title_5">Timp pentru cafea</string>
+
+    <!-- FAQ -->
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <!-- Short description has to have less than 80 chars -->
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>
